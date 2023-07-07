@@ -1,0 +1,278 @@
+/* header*/
+*{
+  box-sizing: border-box;
+  margin:0;
+  padding:0;
+}
+
+#bloc_entete{ 
+  
+    
+}
+
+#flex{
+  display : flex;
+  text-align: justify;
+  background-color:white;
+  justify-content: space-between;
+  
+}
+
+ul li{
+  display : inline-block;
+}
+
+#accueil {
+  display : grid;
+  grid-auto-flow: column;
+  background-color:white;
+/*   grid-template-columns: fit-content(40%) fit-content(40%) 1fr; */
+/*   justify-content:space-between; */
+  align-items:center;
+}
+
+#acceuil >div{
+  flex:1;
+}
+ 
+#log{
+  display: inline-block;
+  width: 180px;
+  text-align: center;
+  margin-top:3px;
+}
+
+ul li:hover{
+  width :40px;
+}
+
+nav li
+{
+  display: inline-block;
+  margin-right: 5px;
+ 
+}
+
+#accueil div{
+   border-style: dashed;
+   border-width: 1px;
+   border-color: gray;
+   height : 50px;
+  background-color:white;
+  
+}
+
+#accueil >div:hover{
+  margin-top:3px;
+  border-style : solid;
+  border-width : 2px;
+  
+}
+
+#accueil> div:hover> div{
+  color : red;
+}
+
+#accueil> div> div> div:hover{
+  color : black;
+}
+
+#recherche{
+   display: flex;
+}
+#recherche a {
+  display:flex;
+  align-items:center;
+  
+}
+
+#recherche img{
+  max-width:100%;
+  max-height:100%;
+}
+#ucac{
+  display: block;
+  position:relative;
+}
+#ucac >div{
+  position:absolute;
+  top:100%;
+  left:0;
+  border:none; 
+  visibility:hidden;
+}
+
+#ucac:hover >div{
+  visibility:visible;
+}
+
+#campus{
+  position:relative;
+  display:block;
+}
+
+#campus>div{
+  position:absolute;
+  visibily:hidden;
+  top:100%;
+  left:0;
+}
+
+#campus:hover>div{
+  visibility:visible;
+}
+#enseignement{
+  display:block;
+  position:relative;
+}
+
+#enseignement > div{
+  position : absolute;
+  top:100%;
+  left:0px;
+  visibility : hidden;
+}
+
+#enseignement:hover > div{
+  visibility : visible;
+}
+
+#formations{
+  display : block;
+  position:relative;
+}
+
+#formations > div{
+  visibility : hidden;
+  position:absolute;
+  left:0px;
+  top:100%;
+}
+#formations:hover > div{
+  visibility : visible;
+}
+
+#services{
+  display : block;
+  position:relative;
+}
+#services>div{
+  position:absolute;
+  visibility : hidden;
+  top:100%;
+}
+#services:hover>div{
+  visibility:visible;
+}
+
+#contact{
+  color : red;
+}
+#moodle{
+  color:red;
+}
+
+#imgPrincipal{
+  content-type:justify;
+  width:100%;
+}
+
+#imgg{
+  position:absolute;
+  width:100%;
+  height: 500px;
+  
+}
+
+#slider{
+    width: 300px;
+    height: 185px;
+    margin: auto;
+    position: relative;
+    zoom: 1;
+}
+
+header{
+  position:relative;
+  margin-right:40px;
+  margin-left:40px;
+  background-color:orange;
+}
+#bloc_des_couleur{
+  z-index: 1;
+  position:relative;
+  display: flex;
+  margin-top: 300px;
+  margin-right:40px;
+  margin-left:40px;
+  display: grid;
+  grid-auto-flow: column;
+
+}
+
+#bloc_des_couleur img{
+    width: 50px;
+    height: 50px;
+}
+
+#bloc_des_couleur a{
+    text-decoration: none;
+    padding: 50px;
+}
+
+
+#image1{
+    z-index: 1;
+    position:relative;
+    background-color: orange;
+    text-align: center;
+    padding-top:15px;
+}
+#image1 p{
+    color: aliceblue;
+    
+}
+
+#image2{
+    z-index: 1;
+    position:relative;
+    background-color: orangered;
+    text-align: center;
+    padding-top:15px;
+}
+#image2 p{
+    color: aliceblue;
+}
+
+#image3{
+    z-index: 1;
+    position:relative;
+    background-color: #f16521;
+    text-align: center;
+    padding-top:15px;
+}
+#image3 p{
+    color: aliceblue;
+}
+
+#image4{
+    z-index: 1;
+    position:relative;
+    background-color: #e23e26;
+    text-align: center;
+    padding-top:15px;
+}
+#image4 p{
+    color: aliceblue;
+}
+
+#image5{
+    z-index: 1;
+    position:relative;
+    background-color: #BE121E;
+    text-align: center;
+    padding-top:15px;
+}
+#image5 p{
+    color: aliceblue;
+}
